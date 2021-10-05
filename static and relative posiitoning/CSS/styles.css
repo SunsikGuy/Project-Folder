@@ -1,0 +1,35 @@
+
+div{
+  height: 200px; width: 200px;
+}
+h1{
+background-color: red;
+}
+span{
+background-color: pink;
+}
+
+.one{
+  background-color:grey;
+  position:relative;
+  left: 150px;
+  top:100px;
+  z-index: 1;
+  /* display: inline-block; */
+}
+.two{
+  background-color:yellow;
+  position: relative;
+  left: 200px;
+  z-index: 2;
+  /* display: inline-block; */
+}
+.three{
+  background-color:black;
+  position: relative;
+  left: 250px;
+  bottom:100px;
+  z-index: 3;
+  /* display: inline-block; */
+  color:white;
+}

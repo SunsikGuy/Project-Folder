@@ -1,0 +1,26 @@
+CSS
+
+  /* margin properties */
+  margin-top: 32px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  margin-left: 32px;
+
+  /* border properties */
+  border-color: #fde1a0;
+  border-style: solid;
+  border-top-width: 8px;
+  border-right-width: 8px;
+  border-bottom-width: 8px;
+  border-left-width: 8px;
+
+  /* padding properties */
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+
+  /* element size properties */
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
