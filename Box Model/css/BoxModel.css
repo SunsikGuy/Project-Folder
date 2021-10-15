@@ -1,26 +1,93 @@
-CSS
-
+#first-box{
   /* margin properties */
-  margin-top: 32px;
-  margin-right: 32px;
-  margin-bottom: 32px;
-  margin-left: 32px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 
   /* border properties */
-  border-color: #fde1a0;
+  border-color: #black;
   border-style: solid;
-  border-top-width: 8px;
-  border-right-width: 8px;
-  border-bottom-width: 8px;
-  border-left-width: 8px;
+  border-top-width: 10px;
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  border-left-width: 10px;
 
   /* padding properties */
-  padding-top: 16px;
-  padding-right: 16px;
-  padding-bottom: 16px;
-  padding-left: 16px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 
-  /* element size properties */
+  /* element size & properties */
+  /* (color found using https://html-color-codes.info/colors-from-image/) */
+  background-color: #9BD4E1;
   box-sizing: border-box;
   width: 200px;
   height: 200px;
+}
+
+#second-box{
+  /* Box positioning */
+  position: relative;
+  left: 200px;
+
+  /* margin properties */
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+
+  /* border properties */
+  border-color: #black;
+  border-style: solid;
+  border-top-width: 20px;
+  border-right-width: 20px;
+  border-bottom-width: 20px;
+  border-left-width: 20px;
+
+  /* padding properties */
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+
+  /* element size & properties */
+  background-color: #FF0013;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+
+}
+
+#third-box{
+  /* Box Positioning */
+  position: relative;
+  left: 400px;
+
+  /* margin properties */
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+
+  /* border properties */
+  border-color: #black;
+  border-style: solid;
+  border-top-width: 10px;
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  border-left-width: 10px;
+
+  /* padding properties */
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+
+  /* element size & properties */
+  background-color: #FFFB43;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+}
